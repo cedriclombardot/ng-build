@@ -16,6 +16,8 @@
 %>        <base href="<%= base %>">
 <% } %><% styles.forEach(function(href) {
 %>        <link rel="stylesheet" href="<%= href %>">
+<% }) %><% external_scripts.forEach(function(src) {
+%>        <script src="<%= src %>"></script>
 <% }) %><% scripts.forEach(function(src) {
 %>        <script src="<%= src %>"></script>
 <% }) %>    </head>
